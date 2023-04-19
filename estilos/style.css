@@ -40,6 +40,27 @@ main{
 #tela{
     width: 267px;
     height: 471px;
-    transform: translate(0px, 2px);
-    
+    transform: translate(0px, 2px);   
+}
+
+#botao{
+    display: flex;
+    flex-direction: column;
+}
+
+#botao a {
+    margin: 5px;
+ }
+
+#botao img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.568);
+}
+
+#botao img:hover{
+    border: solid 2px white;
+    transform: translate(-3px, -3px);
+    transition: transform .2s;
+    box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.568)
 }
