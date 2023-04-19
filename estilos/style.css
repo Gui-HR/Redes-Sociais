@@ -77,7 +77,7 @@ main{
     #tela{
         width: 268px;
         height: 473px;
-        transform: translate(-4px, -3px); 
+        transform: translate(-2px, -1px); 
     }
 
     #botao{
